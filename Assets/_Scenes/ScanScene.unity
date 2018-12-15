@@ -247,7 +247,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 395313444}
-  - component: {fileID: 395313446}
+  - component: {fileID: 395313445}
   m_Layer: 0
   m_Name: ScriptManager
   m_TagString: Untagged
@@ -268,7 +268,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &395313446
+--- !u!114 &395313445
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -279,7 +279,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b678155cb8a59d544be4ef804a1cab92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OutputText: {fileID: 52479715}
 --- !u!1 &794868467
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,17 +415,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1509228168
+--- !u!1 &1353596532
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1509228169}
-  - component: {fileID: 1509228172}
-  - component: {fileID: 1509228171}
-  - component: {fileID: 1509228170}
+  - component: {fileID: 1353596533}
+  - component: {fileID: 1353596536}
+  - component: {fileID: 1353596535}
+  - component: {fileID: 1353596534}
   m_Layer: 0
   m_Name: UIRaycastCamera
   m_TagString: Untagged
@@ -434,12 +433,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1509228169
+--- !u!4 &1353596533
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1509228168}
+  m_GameObject: {fileID: 1353596532}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -447,12 +446,12 @@ Transform:
   m_Father: {fileID: 1775621460}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1509228170
+--- !u!114 &1353596534
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1509228168}
+  m_GameObject: {fileID: 1353596532}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -465,12 +464,12 @@ MonoBehaviour:
   m_InputActionsPerSecond: 10
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 0
---- !u!114 &1509228171
+--- !u!114 &1353596535
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1509228168}
+  m_GameObject: {fileID: 1353596532}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -479,12 +478,12 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
---- !u!20 &1509228172
+--- !u!20 &1353596536
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1509228168}
+  m_GameObject: {fileID: 1353596532}
   m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
@@ -604,7 +603,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 52479716}
-  - {fileID: 1509228169}
+  - {fileID: 1353596533}
   m_Father: {fileID: 794868468}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -642,7 +641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointingExtent: 10
-  uiRaycastCamera: {fileID: 1509228172}
+  uiRaycastCamera: {fileID: 1353596536}
   pointingRaycastLayerMasks:
   - serializedVersion: 2
     m_Bits: 4294967291
